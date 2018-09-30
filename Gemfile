@@ -91,7 +91,7 @@ group :test do
   gem 'mocha', require: false
 
   gem 'capybara',            '~> 2.17'
-  gem 'selenium-webdriver',  '~> 3.8'
+  gem 'selenium-webdriver', '~> 3.8', '>= 3.8.0'
   gem 'chromedriver-helper', '~> 1.1'
   gem 'rack_session_access', '~> 0.1'
   gem 'webmock',             '~> 3.3'
